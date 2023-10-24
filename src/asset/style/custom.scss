@@ -1,0 +1,67 @@
+$darkblack-colors: #20232a;
+$skyblue-colors: #61dafb;
+$light-black: #282c34;
+$bordercolor: #a59e9e47;
+
+$primary: $darkblack-colors;
+$section-padding:0px; 
+$section-padding-desktop: 0px;
+$primary-light: $skyblue-colors;
+$primary-hover-light: $skyblue-colors;
+$dark: $light-black;
+$hr-height: 1px;
+$hr-margin: 10px;
+$footer-background-color: $darkblack-colors;
+
+@font-face {
+    font-family: 'Backsteal';
+    src: url('../fonts/Backsteal-Regular.otf') format('otf');
+    /* Add more font properties as needed (e.g., font-weight, font-style) */
+  }
+
+@font-face{
+    font-family: 'SignPainter HouseSlant Regular';
+    src: url('../fonts/SignPainter\ HouseSlant\ Regular.ttf') format('ttf'); 
+}
+
+.signpainterhouseslant{
+    font-family: 'SignPainter HouseSlant Regular';
+    font-style: italic;
+}
+.backsteal-fonts {
+    font-family: 'Backsteal';
+  }
+.hover-primary:hover{
+    background-color: $darkblack-colors !important;
+}
+.hover-primary.active{ 
+    color: $skyblue-colors !important;
+    background-color: $light-black;
+}
+.bbp{
+    border-bottom: 2px solid $primary;
+}
+.bbc{
+    border-bottom: 2px solid $skyblue-colors;
+}
+.text-right-align{
+    text-align: right;
+}
+.line-virtcle{
+    border-left: 1px solid $bordercolor;
+}
+.w-500{
+    max-width: 500px;
+}
+.w-200{
+    max-width: 200px;
+}
+.w-100{
+    max-width: 100px;
+}
+.bb{
+    border-bottom: 1px solid $bordercolor;
+}
+.list-style-type-none{
+    list-style-type: none !important;
+}

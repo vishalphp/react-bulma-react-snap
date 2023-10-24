@@ -1,23 +1,23 @@
-import logo from './logo.svg';
-import './App.css';
+import { Route, Routes } from 'react-router-dom' 
+//import SeoUtils from './components/seo/SeoUtils';
+import Screen from './Screen';
+import './asset/style/style.scss';
+//import { useLocation } from 'react-router-dom'
 
 function App() {
+  
+  /*const location = useLocation();
+  let pageSeo = location.pathname.substring(1) === '' ? 'home' : location.pathname.substring(1); 
+*/
+ 
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/*<SeoUtils page={pageSeo} />*/} 
+     
+       <Routes>
+         <Route path='/*' element={<Screen />} />
+       </Routes>
+      
     </div>
   );
 }

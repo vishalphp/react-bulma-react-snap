@@ -1,0 +1,10 @@
+{
+    "presets": [
+      "@babel/preset-env", // Transpiles JavaScript to be compatible with target environments
+      "@babel/preset-react" // Transpiles JSX syntax
+    ],
+    "plugins": [
+      "@babel/plugin-transform-runtime" // Provides polyfills for newer ECMAScript features
+    ]
+  }
+  
