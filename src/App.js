@@ -6,6 +6,7 @@ import './asset/style/style.scss';
 
 function App() {
   
+  //commented and moved seo in custom hook functionalty
   /*const location = useLocation();
   let pageSeo = location.pathname.substring(1) === '' ? 'home' : location.pathname.substring(1); 
 */
